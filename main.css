@@ -1,0 +1,227 @@
+body{background-image: url('https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjZ6efAoPblAhWYAGMBHWXwAgIQjRx6BAgBEAQ&url=%2Furl%3Fsa%3Di%26source%3Dimages%26cd%3D%26ved%3D2ahUKEwinkrq4oPblAhULEBQKHQHFBaQQjRx6BAgBEAQ%26url%3Dhttps%253A%252F%252Fweheartit.com%252Fentry%252F78216653%26psig%3DAOvVaw1s26IWlTdQP2apvStiMRdi%26ust%3D1574252160922318&psig=AOvVaw1s26IWlTdQP2apvStiMRdi&ust=1574252160922318');box-sizing: border-box;}
+header{
+    background:pink;
+    height: 80px;
+    width: 100%;
+    box-shadow: 2px 4px 4px 2px darkgray;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    text-align: right;
+}
+a{
+        box-sizing: border-box;
+        width: 25%;
+        display: inline-block;
+        margin-left: -3px;
+        text-align: center;
+        padding: 12px;
+        background: white;
+}
+.nav{
+    box-sizing: border-box;
+    width: 25%;
+    display: inline-block;
+    margin-left: -3px;
+    text-align: center;
+    padding: 12px;
+    background: pink;
+}
+.fa{
+    color:whitesmoke;
+    font-size: 25px;
+}
+/*.fa-heart-o:hover{  
+    color:yellow;
+}color to change should someone scoll over the icons.*/
+
+.container{
+    background:white;
+    padding-top: 50px;
+    margin-top : 5%;
+    width: 100%;
+    text-align: center;
+    padding-left: 5%;
+    top: 50px;
+    bottom: 0;
+    box-sizing: border-box;
+
+}  
+/*.wrapper { background-color : rgb(255, 0, 255);} */
+ .card{
+    background: #f5f7e9;
+    margin: 0 auto;
+    width: 50%;
+    height: 500px;
+    float: left;
+    border-radius: 10px;
+}
+.profile-edit
+{
+    margin: 0 auto;
+    width: 50%;
+    height: 500px;
+    float: left;
+    border: 1px solid darkgray;
+    display: block;
+    border-radius: 10px;
+}
+    /* .card-header{
+
+    } */
+#canvas
+{
+    display: none;
+}
+.pictures
+{
+    border:1px solid pink;
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    overflow: auto;
+    border-radius: 10px;
+    
+}
+.side-ul
+{
+    list-style-type: none;
+    display: inline-block;
+}
+.side-ul li:hover{
+    cursor: pointer;
+    border: 1px solid #32a852;
+    box-shadow: 2px 3px 3px 2px darkgrey;
+}
+.side-ul li
+{
+    list-style-type: none;
+    display: inline-block;
+    border: 1px solid darkgray;
+}
+.list-picture
+{
+    list-style-type: none;
+}
+.list-picture li{
+    list-style-type: none;
+    display: block;
+}
+#imageView
+{
+    z-index: 10;
+    top: 0;
+}
+.pagination
+{
+    list-style-type: none;
+    display : inline-block;
+    margin:  0 auto;
+    text-align: center;
+}
+.pagination li
+{
+    list-style-type: none;
+    display : inline-block;
+}
+.list-gallery
+{
+    list-style-type: none;
+    display : inline-block;
+}
+.list-gallery li
+{
+    list-style-type: none;
+    display : inline-block;
+    margin: 10px;
+    border:  1px solid darkgray;
+}
+.pagination-div
+{
+    height: 5px;
+    width:  100%;
+    bottom: 0;
+    text-align: center;
+    margin: 0 auto;
+    left: 0;
+}
+.comment
+{
+    float : right;
+}
+.like
+{
+    float : left;
+}
+.main-content
+{
+    box-sizing: border-box;
+    overflow: auto;
+    height: 80%;
+    width: 100%;
+    margin-top : 5%;
+    padding: 10px;
+    text-align: center;
+}
+.main-comment
+{
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+}
+.comment-list
+{
+    width: 50%;
+    height: 400px;
+    border: 1px solid darkgray;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow: auto;
+}
+.comment-image
+{
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+}
+.bottom-div
+{
+    width: 50%;
+    height: 10%;
+    margin: 0 auto; 
+    padding: 2%;
+}
+.comments-list
+{
+    list-style-type: none;
+    display: block;
+}
+.comments-list li
+{
+    list-style-type: none;
+    display: block;
+    text-justify: auto;
+    text-align: left;
+    border-bottom: 1px solid darkgray;
+    padding: 5px;
+    margin: 5px;
+}
+footer
+{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 6%;
+    color: balck;
+    text-align: center;
+    background: pink;
+    box-shadow: 0px 9px 8px 0px darkgrey;
+    overflow: hidden;
+}
+.footer-text
+{
+    margin : 0 auto;
+    font-size: 1.2em;
+    text-align: center;
+}
