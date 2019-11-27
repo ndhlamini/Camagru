@@ -62,7 +62,7 @@
                             } 		   
                             if (preg_match('/.png/',$img))
                             {				
-                                $array .= '<li class = "pic-items" onmousedown="removeImages(event)" ><img src = "'.$img_dir.$img.'"><br/></li>';
+                                $array .= '<li class = "pic-items" onmousedown="removeImages(event)" ><img src = "'.$img_dir.$img.'" width = "340px" height = "250px"><br/></li>';
                             } 
                             else 
                             { 

@@ -18,7 +18,8 @@ a{
         padding: 12px;
         background: white;
 }
-.nav{
+.nav
+{
     box-sizing: border-box;
     width: 25%;
     display: inline-block;
@@ -27,7 +28,8 @@ a{
     padding: 12px;
     background: pink;
 }
-.fa{
+.fa
+{
     color:whitesmoke;
     font-size: 25px;
 }
@@ -35,7 +37,8 @@ a{
     color:yellow;
 }color to change should someone scoll over the icons.*/
 
-.container{
+.container
+{
     background:white;
     padding-top: 50px;
     margin-top : 5%;
@@ -48,7 +51,8 @@ a{
 
 }  
 /*.wrapper { background-color : rgb(255, 0, 255);} */
- .card{
+ .card
+ {
     background: #f5f7e9;
     margin: 0 auto;
     width: 50%;

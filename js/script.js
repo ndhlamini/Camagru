@@ -8,10 +8,10 @@ var imageView = document.querySelector("#imageView");
 var imageChoose = document.querySelector("#image-picker");
 
 
-sticker1.addEventListener('click', (event)=>{stickerName.value = "sticker1.png";});
-sticker2.addEventListener('click', (event)=>{stickerName.value = "sticker2.png";});
-sticker3.addEventListener('click', (event)=>{stickerName.value = "sticker3.png";});
-sticker4.addEventListener('click', (event)=>{stickerName.value = "sticker4.png";});
+sticker1.addEventListener('click', (event)=>{stickerName.value = "sticker1.png";alert("First sticker.");});
+sticker2.addEventListener('click', (event)=>{stickerName.value = "sticker2.png";alert("Second sticker.");});
+sticker3.addEventListener('click', (event)=>{stickerName.value = "sticker3.png";alert("Third sticker.");});
+sticker4.addEventListener('click', (event)=>{stickerName.value = "sticker4.png";alert("Fourth sticker.");});
 
 navigator.getUserMedia=navigator.getUserMedia||navigator.
 webkitGetUsermedia||navigator.mozGetUserMedia||navigator.
@@ -30,8 +30,8 @@ capturedPhoto.addEventListener('click', (event)=>
 {
     const canvas = document.querySelector("#canvas");
     const context = canvas.getContext('2d');
-    context.drawImage(video, 0, 0, 320, 240);
-    context.drawImage(imageView, 0, 0, 320, 240);
+    context.drawImage(video, 0, 0, 340, 250);
+    context.drawImage(imageView, 0, 0, 340, 250);
     saveImage(canvas.toDataURL('image/png'));
 });
 imageChoose.addEventListener('change', (event)=>{
@@ -44,7 +44,6 @@ imageChoose.addEventListener('change', (event)=>{
 function saveImage(url)
 {
     var param = "";
-    alert(stickerName.value);
     var http = new XMLHttpRequest();
     if (stickerName.value)
         param = "image-url="+url+"&image="+stickerName.value;
@@ -90,7 +89,8 @@ function removeImages(event)
             http.onreadystatechange = function()
             {
             if (http.readyState === 4) {
-                if (http.status === 200) { 
+                if (http.status === 200) 
+                {
                 }
             }
             };
